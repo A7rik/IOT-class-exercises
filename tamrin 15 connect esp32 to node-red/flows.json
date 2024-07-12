@@ -1,0 +1,164 @@
+[
+    {
+        "id": "c179a403be9101a2",
+        "type": "tab",
+        "label": "tamrin 15 connect esp32 to node-red",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "fa4bfd7ad39762b9",
+        "type": "serial in",
+        "z": "c179a403be9101a2",
+        "name": "",
+        "serial": "42705f387b5823a4",
+        "x": 190,
+        "y": 180,
+        "wires": [
+            [
+                "e1220eee4f0d8af7"
+            ]
+        ]
+    },
+    {
+        "id": "2e558636251edb97",
+        "type": "http in",
+        "z": "c179a403be9101a2",
+        "name": "",
+        "url": "/your_username.2",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "4f56d265f753fc40"
+            ]
+        ]
+    },
+    {
+        "id": "72f782a5eb8c145c",
+        "type": "template",
+        "z": "c179a403be9101a2",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n    <body>\n        <p>\n            random 1 :\n        </p>\n        <p>\n\n        {{n1}}\n        </p>\n        <p>\n            random 2 :\n        </p>\n        <p>\n        {{n2}}\n\n        </p>\n    </body>\n</html>",
+        "output": "str",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            [
+                "d2f7a4e343b30291"
+            ]
+        ]
+    },
+    {
+        "id": "e1220eee4f0d8af7",
+        "type": "function",
+        "z": "c179a403be9101a2",
+        "name": "function 6",
+        "func": "let i = flow.get(\"i\")\nif (i == 0) {\n    flow.set(\"temp\", msg.payload);\n    flow.set(\"i\",1)\n}\nelse if (i == 1) {\n    flow.set(\"humd\", msg.payload);\n    flow.set(\"i\",0)\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2f7a4e343b30291",
+        "type": "http response",
+        "z": "c179a403be9101a2",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 630,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "4f56d265f753fc40",
+        "type": "function",
+        "z": "c179a403be9101a2",
+        "name": "function 7",
+        "func": "msg.n1=flow.get(\"temp\")\nmsg.n2=flow.get(\"humd\")\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 360,
+        "wires": [
+            [
+                "72f782a5eb8c145c"
+            ]
+        ]
+    },
+    {
+        "id": "54838fc65f5d6a45",
+        "type": "inject",
+        "z": "c179a403be9101a2",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "d671c8bc9ddd6472"
+            ]
+        ]
+    },
+    {
+        "id": "d671c8bc9ddd6472",
+        "type": "function",
+        "z": "c179a403be9101a2",
+        "name": "function 8",
+        "func": "flow.set(\"i\",0)\nreturn msg;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "42705f387b5823a4",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM9",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    }
+]

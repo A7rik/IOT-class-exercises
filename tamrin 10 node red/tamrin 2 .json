@@ -1,0 +1,89 @@
+[
+    {
+        "id": "3ddf99bdea1c407c",
+        "type": "tab",
+        "label": "Ayrik  tamrin 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f34f47014c99e50c",
+        "type": "function",
+        "z": "3ddf99bdea1c407c",
+        "name": "function 2",
+        "func": "msg.prime =true;\nif (msg.payload <= 1 || !Number.isInteger(msg.payload)) {\n    msg.prime =false;\n  }\nfor (let i = 2; i <= Math.sqrt(msg.payload); i++) {\n    if (msg.payload % i === 0) {\n        msg.prime =false;\n    }\n}\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 240,
+        "wires": [
+            [
+                "f484ca15451190dd"
+            ]
+        ]
+    },
+    {
+        "id": "cc6eddc4257b4626",
+        "type": "random",
+        "z": "3ddf99bdea1c407c",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "f34f47014c99e50c"
+            ]
+        ]
+    },
+    {
+        "id": "19b3483468c6c7ec",
+        "type": "inject",
+        "z": "3ddf99bdea1c407c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            [
+                "cc6eddc4257b4626"
+            ]
+        ]
+    },
+    {
+        "id": "f484ca15451190dd",
+        "type": "debug",
+        "z": "3ddf99bdea1c407c",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 240,
+        "wires": []
+    }
+]

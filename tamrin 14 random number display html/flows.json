@@ -1,0 +1,91 @@
+[
+    {
+        "id": "bff3d7f0d482a266",
+        "type": "tab",
+        "label": "tamrin 14 random number display html",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "868f3f3c8c1e129f",
+        "type": "http in",
+        "z": "bff3d7f0d482a266",
+        "name": "",
+        "url": "/your_username",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "d51d4f9e6777f70f"
+            ]
+        ]
+    },
+    {
+        "id": "c5a8e6566d74fbe0",
+        "type": "template",
+        "z": "bff3d7f0d482a266",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "<!DOCTYPE html>\n<html>\n    <body>\n        <p>\n            random 1 :\n        </p>\n        <p>\n\n        {{rand1}}\n        </p>\n        <p>\n            random 2 :\n        </p>\n        <p>\n        {{rand2}}\n\n        </p>\n    </body>\n</html>",
+        "output": "str",
+        "x": 740,
+        "y": 280,
+        "wires": [
+            [
+                "7b2c6b1da33c493d"
+            ]
+        ]
+    },
+    {
+        "id": "d51d4f9e6777f70f",
+        "type": "random",
+        "z": "bff3d7f0d482a266",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "rand1",
+        "x": 440,
+        "y": 300,
+        "wires": [
+            [
+                "9f076426a1d4f67c"
+            ]
+        ]
+    },
+    {
+        "id": "9f076426a1d4f67c",
+        "type": "random",
+        "z": "bff3d7f0d482a266",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "rand2",
+        "x": 480,
+        "y": 360,
+        "wires": [
+            [
+                "c5a8e6566d74fbe0"
+            ]
+        ]
+    },
+    {
+        "id": "7b2c6b1da33c493d",
+        "type": "http response",
+        "z": "bff3d7f0d482a266",
+        "name": "/your_username",
+        "statusCode": "",
+        "headers": {},
+        "x": 990,
+        "y": 280,
+        "wires": []
+    }
+]

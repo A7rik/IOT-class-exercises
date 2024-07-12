@@ -1,0 +1,129 @@
+[
+    {
+        "id": "9551d1e0a4238f91",
+        "type": "tab",
+        "label": "tamrin 11 maghsoom alayhe",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "81c8333a8ba1f1a1",
+        "type": "function",
+        "z": "9551d1e0a4238f91",
+        "name": "function 4",
+        "func": "node.status({fill:\"red\",shape:\"dot\",text:\"hellooooooooooooooooooooooo\"});\nvar msg1={ prime : true }\nvar msg2={ c:[]}\nif (msg.payload <= 1 || !Number.isInteger(msg.payload)) {\n    msg1.prime =false;\n  }\nvar j=0;\nfor (let i = 2; i <(msg.payload); i++) {\n    if (msg.payload % i === 0) {\n        msg2.c[j]=i;\n        j++\n        msg1.prime =false;\n    }\n}\n\nreturn [msg,msg1,msg2];",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 160,
+        "wires": [
+            [
+                "e503b44a7e81bcb1"
+            ],
+            [
+                "a03feb6780ae76e6"
+            ],
+            [
+                "e7a1d55c267a966c"
+            ]
+        ]
+    },
+    {
+        "id": "5967811254f910e9",
+        "type": "random",
+        "z": "9551d1e0a4238f91",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 400,
+        "y": 160,
+        "wires": [
+            [
+                "81c8333a8ba1f1a1"
+            ]
+        ]
+    },
+    {
+        "id": "6fb3b36f970e4902",
+        "type": "inject",
+        "z": "9551d1e0a4238f91",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 160,
+        "wires": [
+            [
+                "5967811254f910e9"
+            ]
+        ]
+    },
+    {
+        "id": "e503b44a7e81bcb1",
+        "type": "debug",
+        "z": "9551d1e0a4238f91",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "a03feb6780ae76e6",
+        "type": "debug",
+        "z": "9551d1e0a4238f91",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "prime",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e7a1d55c267a966c",
+        "type": "debug",
+        "z": "9551d1e0a4238f91",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "c",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 220,
+        "wires": []
+    }
+]

@@ -1,0 +1,2 @@
+set kardan password toye file : Local Disk (C)>Users>(Username) >.node-red>settings.js
+

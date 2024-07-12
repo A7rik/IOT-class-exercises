@@ -1,0 +1,3182 @@
+temp is : 90 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 94 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 56 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 44 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 43 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 98 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 67 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 71 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 58 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 26 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 54 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 8 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 35 !
+temp is :  !
+temp is : 19 !
+temp is :  !
+temp is : 27 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 24 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 22 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 52 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 33 !
+temp is :  !
+temp is : 73 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 64 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 75 !
+temp is :  !
+temp is : 34 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 93 !
+temp is :  !
+temp is : 66 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 28 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 57 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 87 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 6 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 63 !
+temp is :  !
+temp is : 53 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 45 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 11 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 7 !
+temp is :  !
+temp is : 99 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 86 !
+temp is :  !
+temp is : 29 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 38 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 20 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 4 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 36 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 1 !
+temp is :  !
+temp is : 62 !
+temp is :  !
+temp is : 80 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 68 !
+temp is :  !
+temp is : 42 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 37 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 59 !
+temp is :  !
+temp is : 96 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 76 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 49 !
+temp is :  !
+temp is : 30 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 32 !
+temp is :  !
+temp is : 46 !
+temp is :  !
+temp is : 79 !
+temp is :  !
+temp is : 81 !
+temp is :  !
+temp is : 55 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 5 !
+temp is :  !
+temp is : 10 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 15 !
+temp is :  !
+temp is : 48 !
+temp is :  !
+temp is : 83 !
+temp is :  !
+temp is : 91 !
+temp is :  !
+temp is : 16 !
+temp is :  !
+temp is : 88 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 12 !
+temp is :  !
+temp is : 21 !
+temp is :  !
+temp is : 72 !
+temp is :  !
+temp is : 89 !
+temp is :  !
+temp is : 39 !
+temp is :  !
+temp is : 18 !
+temp is :  !
+temp is : 14 !
+temp is :  !
+temp is : 2 !
+temp is :  !
+temp is : 23 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 3 !
+temp is :  !
+temp is : 61 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 78 !
+temp is :  !
+temp is : 84 !
+temp is :  !
+temp is : 40 !
+temp is :  !
+temp is : 60 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 82 !
+temp is :  !
+temp is : 17 !
+temp is :  !
+temp is : 92 !
+temp is :  !
+temp is : 97 !
+temp is :  !
+temp is : 31 !
+temp is :  !
+temp is : 47 !
+temp is :  !
+temp is : 50 !
+temp is :  !
+temp is : 90 !
+temp is :  !
+temp is : 85 !
+temp is :  !
+temp is : 77 !
+temp is :  !
+temp is : 25 !
+temp is :  !
+temp is : 51 !
+temp is :  !
+temp is : 69 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 0 !
+temp is :  !
+temp is : 41 !
+temp is :  !
+temp is : 9 !
+temp is :  !
+temp is : 65 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 95 !
+temp is :  !
+temp is : 74 !
+temp is :  !
+temp is : 70 !
+temp is :  !
+temp is : 13 !
+temp is :  !
+temp is : 83 !
+temp is :  !

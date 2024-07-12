@@ -1,0 +1,478 @@
+[
+    {
+        "id": "10a4316c31f388e2",
+        "type": "tab",
+        "label": "tamrin 17 email",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3720cafa14043144",
+        "type": "e-mail",
+        "z": "10a4316c31f388e2",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "laggedmind@gmail.com",
+        "dname": "humd 95",
+        "x": 920,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "e6481e3f5afc16c2",
+        "type": "ui_gauge",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "d1f08a5a6bfb7fb4",
+        "type": "ui_gauge",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humd usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 610,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "716ef3eb20be0c25",
+        "type": "ui_chart",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Temp chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "36706e507589bc8b",
+        "type": "ui_chart",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Humd chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 630,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "97c169f27c0949d0",
+        "type": "serial in",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "serial": "42705f387b5823a4",
+        "x": 170,
+        "y": 240,
+        "wires": [
+            [
+                "399a9af20262aed5"
+            ]
+        ]
+    },
+    {
+        "id": "399a9af20262aed5",
+        "type": "function",
+        "z": "10a4316c31f388e2",
+        "name": "function 15",
+        "func": "var msg1={};\nvar msg2={};\nlet i = flow.get(\"i\")\nif (i == 0) {\n    msg1.payload= parseInt( msg.payload);\n    flow.set(\"i\",1)\n}\nelse if (i == 1) {\n    msg2.payload= parseInt( msg.payload);\n    flow.set(\"i\",0)\n}\n\nreturn [msg1,msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 240,
+        "wires": [
+            [
+                "e6481e3f5afc16c2",
+                "716ef3eb20be0c25",
+                "4e40a9b6326a7af2"
+            ],
+            [
+                "36706e507589bc8b",
+                "d1f08a5a6bfb7fb4",
+                "db5589e041ca6b1a"
+            ]
+        ]
+    },
+    {
+        "id": "c42358076d5df22f",
+        "type": "inject",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 190,
+        "y": 160,
+        "wires": [
+            [
+                "e4c3a918f1574124"
+            ]
+        ]
+    },
+    {
+        "id": "e4c3a918f1574124",
+        "type": "function",
+        "z": "10a4316c31f388e2",
+        "name": "function 16",
+        "func": "flow.set(\"i\",0)\nreturn msg;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "4e40a9b6326a7af2",
+        "type": "switch",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "95",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 610,
+        "y": 120,
+        "wires": [
+            [
+                "d28de65fe8d55555",
+                "c0febea42419a214"
+            ]
+        ]
+    },
+    {
+        "id": "db5589e041ca6b1a",
+        "type": "switch",
+        "z": "10a4316c31f388e2",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "95",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "41c70a45c0338abd",
+                "e02b6bce862655e5"
+            ]
+        ]
+    },
+    {
+        "id": "d28de65fe8d55555",
+        "type": "debug",
+        "z": "10a4316c31f388e2",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "41c70a45c0338abd",
+        "type": "debug",
+        "z": "10a4316c31f388e2",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 800,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e02b6bce862655e5",
+        "type": "function",
+        "z": "10a4316c31f388e2",
+        "name": "function 17",
+        "func": "msg.topic = \"humd is above 95%\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 480,
+        "wires": [
+            [
+                "3720cafa14043144",
+                "a0fb180c9131e1cf"
+            ]
+        ]
+    },
+    {
+        "id": "c0febea42419a214",
+        "type": "function",
+        "z": "10a4316c31f388e2",
+        "name": "function 18",
+        "func": "msg.topic = \"temp is above 95%\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 60,
+        "wires": [
+            [
+                "19bbbe226f55063f",
+                "01c1f93512893fc2"
+            ]
+        ]
+    },
+    {
+        "id": "19bbbe226f55063f",
+        "type": "e-mail",
+        "z": "10a4316c31f388e2",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "laggedmind@gmail.com",
+        "dname": "temp 95",
+        "x": 940,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "a0fb180c9131e1cf",
+        "type": "ui_toast",
+        "z": "10a4316c31f388e2",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 870,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "01c1f93512893fc2",
+        "type": "ui_toast",
+        "z": "10a4316c31f388e2",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 970,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fb0f910cb3b0925f",
+        "type": "ui_group",
+        "name": "gauge",
+        "tab": "6912293b49bc5cb5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8513c2f1cc545efc",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "6912293b49bc5cb5",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42705f387b5823a4",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM9",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "6912293b49bc5cb5",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

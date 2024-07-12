@@ -1,0 +1,5 @@
+https://nodered.org/docs/getting-started/local
+
+run :
+
+node-red

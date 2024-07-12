@@ -1,0 +1,642 @@
+[
+    {
+        "id": "f333f711b4c1014f",
+        "type": "tab",
+        "label": "tamrin 16 exec dashboard",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "01298c88a9a37775",
+        "type": "ui_gauge",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 630,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "677db79b800d0d06",
+        "type": "ui_gauge",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humd usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 630,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "097cd9d4509cd8d5",
+        "type": "ui_chart",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Temp chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ef0f4a62678f3a10",
+        "type": "ui_chart",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Humd chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 650,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a111ea8a92019d19",
+        "type": "serial in",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "serial": "42705f387b5823a4",
+        "x": 190,
+        "y": 360,
+        "wires": [
+            [
+                "91ba29339f984780"
+            ]
+        ]
+    },
+    {
+        "id": "91ba29339f984780",
+        "type": "function",
+        "z": "f333f711b4c1014f",
+        "name": "function 11",
+        "func": "var msg1={};\nvar msg2={};\nlet i = flow.get(\"i\")\nif (i == 0) {\n    msg1.payload= parseInt( msg.payload);\n    flow.set(\"i\",1)\n}\nelse if (i == 1) {\n    msg2.payload= parseInt( msg.payload);\n    flow.set(\"i\",0)\n}\n\nreturn [msg1,msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 360,
+        "wires": [
+            [
+                "01298c88a9a37775",
+                "097cd9d4509cd8d5",
+                "ea8fa2d970954e66"
+            ],
+            [
+                "ef0f4a62678f3a10",
+                "677db79b800d0d06",
+                "d5317bd95a8e7637"
+            ]
+        ]
+    },
+    {
+        "id": "72dde922effcfb10",
+        "type": "inject",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 210,
+        "y": 280,
+        "wires": [
+            [
+                "61ca84c83374d69a"
+            ]
+        ]
+    },
+    {
+        "id": "61ca84c83374d69a",
+        "type": "function",
+        "z": "f333f711b4c1014f",
+        "name": "function 12",
+        "func": "flow.set(\"i\",0)\nreturn msg;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "99c37846d761c14b",
+        "type": "file",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "filename": "D:\\uni\\class\\8\\IOT internet ashya salman goli\\tamrin sare class\\tamrin 17 read file\\Ayrik  temp.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 910,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea8fa2d970954e66",
+        "type": "template",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "temp is : {{payload}} !",
+        "output": "str",
+        "x": 400,
+        "y": 480,
+        "wires": [
+            [
+                "99c37846d761c14b"
+            ]
+        ]
+    },
+    {
+        "id": "d5317bd95a8e7637",
+        "type": "template",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "field": "payload",
+        "fieldType": "msg",
+        "format": "handlebars",
+        "syntax": "mustache",
+        "template": "Humd is : {{payload}} !",
+        "output": "str",
+        "x": 400,
+        "y": 540,
+        "wires": [
+            [
+                "876a2d7ac0bad76c"
+            ]
+        ]
+    },
+    {
+        "id": "876a2d7ac0bad76c",
+        "type": "file",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "filename": "D:\\uni\\class\\8\\IOT internet ashya salman goli\\tamrin sare class\\tamrin 17 read file\\Ayrik  humd.txt",
+        "filenameType": "str",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "none",
+        "x": 920,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a0fbb659c62e11e6",
+        "type": "exec",
+        "z": "f333f711b4c1014f",
+        "command": "wmic OS get FreePhysicalMemory",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 420,
+        "y": 80,
+        "wires": [
+            [
+                "f4d1caba51600b46"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "931e101a15949bcb",
+        "type": "exec",
+        "z": "f333f711b4c1014f",
+        "command": "wmic cpu get loadpercentage",
+        "addpay": "",
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "09723e4a50b51594"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f4d1caba51600b46",
+        "type": "function",
+        "z": "f333f711b4c1014f",
+        "name": "function 13",
+        "func": "\nvar thenum = msg.payload.replace(/^\\D+/g, '');\nvar per = parseInt(thenum)/243140;\nmsg.payload=100-per;\nmsg.payload= parseInt(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 680,
+        "y": 60,
+        "wires": [
+            [
+                "6f1b491bfccbba3e",
+                "3e5a847024566908"
+            ]
+        ]
+    },
+    {
+        "id": "6f1b491bfccbba3e",
+        "type": "ui_gauge",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "812a877027a208e5",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Ram usage",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "911ff624a92f7afd",
+        "type": "ui_gauge",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "812a877027a208e5",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "CPU usage",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 910,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "09723e4a50b51594",
+        "type": "function",
+        "z": "f333f711b4c1014f",
+        "name": "function 14",
+        "func": "\nmsg.payload = msg.payload.replace(/^\\D+/g, '');\nmsg.payload= parseInt(msg.payload);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 200,
+        "wires": [
+            [
+                "911ff624a92f7afd",
+                "e57a1fd1ee65f82e"
+            ]
+        ]
+    },
+    {
+        "id": "ca8636dfd9698d1a",
+        "type": "inject",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 140,
+        "wires": [
+            [
+                "a0fbb659c62e11e6",
+                "931e101a15949bcb"
+            ]
+        ]
+    },
+    {
+        "id": "3e5a847024566908",
+        "type": "ui_chart",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "b684a1c1508c8124",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Ram chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e57a1fd1ee65f82e",
+        "type": "ui_chart",
+        "z": "f333f711b4c1014f",
+        "name": "",
+        "group": "b684a1c1508c8124",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "CPU chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 930,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb0f910cb3b0925f",
+        "type": "ui_group",
+        "name": "gauge",
+        "tab": "6912293b49bc5cb5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8513c2f1cc545efc",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "6912293b49bc5cb5",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42705f387b5823a4",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM9",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "812a877027a208e5",
+        "type": "ui_group",
+        "name": "gauge group",
+        "tab": "0790d7c1e1508c19",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b684a1c1508c8124",
+        "type": "ui_group",
+        "name": "chart group",
+        "tab": "0790d7c1e1508c19",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6912293b49bc5cb5",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "0790d7c1e1508c19",
+        "type": "ui_tab",
+        "name": "tab 1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

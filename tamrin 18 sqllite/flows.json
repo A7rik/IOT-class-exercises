@@ -1,0 +1,639 @@
+[
+    {
+        "id": "43bfcc23f67b7a0f",
+        "type": "tab",
+        "label": "tamrin 18 sqllite",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0a12eb7b6dc5346b",
+        "type": "inject",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 70,
+        "y": 100,
+        "wires": [
+            [
+                "1db6ce4588994a0d"
+            ]
+        ]
+    },
+    {
+        "id": "1db6ce4588994a0d",
+        "type": "function",
+        "z": "43bfcc23f67b7a0f",
+        "name": "function 20",
+        "func": "flow.set(\"i\",0)\nreturn msg;",
+        "outputs": 0,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 230,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "9b931f2a164d6638",
+        "type": "inject",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "create table t1 (id integer primary key autoincrement , temp integer, humd interger, time text) ",
+        "payload": "",
+        "payloadType": "date",
+        "x": 80,
+        "y": 40,
+        "wires": [
+            [
+                "515032c4b270a7fb"
+            ]
+        ]
+    },
+    {
+        "id": "0129f3cdb244880e",
+        "type": "debug",
+        "z": "43bfcc23f67b7a0f",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 920,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "515032c4b270a7fb",
+        "type": "sqlite",
+        "z": "43bfcc23f67b7a0f",
+        "mydb": "f9583bc7fd2abaac",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "",
+        "x": 480,
+        "y": 40,
+        "wires": [
+            [
+                "0129f3cdb244880e"
+            ]
+        ]
+    },
+    {
+        "id": "3c9d0c92afb897e7",
+        "type": "e-mail",
+        "z": "43bfcc23f67b7a0f",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "laggedmind@gmail.com",
+        "dname": "humd 95",
+        "x": 860,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "a00f6fba86d85a5c",
+        "type": "ui_gauge",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 530,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "f604f2f870a522c4",
+        "type": "ui_gauge",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "group": "fb0f910cb3b0925f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humd usage",
+        "label": "units",
+        "format": "{{payload}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 530,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "1cff1e79c2c19824",
+        "type": "ui_chart",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "label": "Temp chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dcf9b4751fe4fe04",
+        "type": "ui_chart",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "group": "8513c2f1cc545efc",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Humd chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 550,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b491d1cd8e58866f",
+        "type": "serial in",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "serial": "42705f387b5823a4",
+        "x": 90,
+        "y": 500,
+        "wires": [
+            [
+                "5a5f3c987afc701a"
+            ]
+        ]
+    },
+    {
+        "id": "5a5f3c987afc701a",
+        "type": "function",
+        "z": "43bfcc23f67b7a0f",
+        "name": "function 21",
+        "func": "var msg1={};\nvar msg2={};\nif(flow.get(\"temp1\")== undefined){\n    flow.set(\"temp1\",0);\n}\nif(flow.get(\"humd1\")== undefined){\n    flow.set(\"humd1\",0);\n}\nlet i = flow.get(\"i\")\nif (i == 0) {\n    msg1.payload= parseInt( msg.payload);\n    flow.set(\"temp1\",parseInt( msg.payload));\n    flow.set(\"i\",1)\n}\nelse if (i == 1) {\n    msg2.payload= parseInt( msg.payload);\n    flow.set(\"humd1\",parseInt( msg.payload));\n    flow.set(\"i\",0)\n}\nmsg1.topic=\"insert into t1(temp , humd, time) values(\"+flow.get(\"temp1\")+\",\"+ flow.get(\"humd1\")+ \", datetime('now', 'localtime'))\";\n//msg.topic = \"insert into t1(temp , humd, time) values( 11,12 ,datetime('now', 'localtime'))\"\nreturn [msg1,msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 500,
+        "wires": [
+            [
+                "a00f6fba86d85a5c",
+                "1cff1e79c2c19824",
+                "9d33cf80cff95a34",
+                "444f36c0e9f9c6f7"
+            ],
+            [
+                "dcf9b4751fe4fe04",
+                "f604f2f870a522c4",
+                "b7f86a5ffe4d5363"
+            ]
+        ]
+    },
+    {
+        "id": "9d33cf80cff95a34",
+        "type": "switch",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "95",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 530,
+        "y": 380,
+        "wires": [
+            [
+                "f99cae0d17e90f5c",
+                "5ca2c8499f1b58a3"
+            ]
+        ]
+    },
+    {
+        "id": "b7f86a5ffe4d5363",
+        "type": "switch",
+        "z": "43bfcc23f67b7a0f",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gte",
+                "v": "95",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 620,
+        "wires": [
+            [
+                "47457cede78e4aeb",
+                "cb775177b49ed0fb"
+            ]
+        ]
+    },
+    {
+        "id": "f99cae0d17e90f5c",
+        "type": "debug",
+        "z": "43bfcc23f67b7a0f",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "47457cede78e4aeb",
+        "type": "debug",
+        "z": "43bfcc23f67b7a0f",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "cb775177b49ed0fb",
+        "type": "function",
+        "z": "43bfcc23f67b7a0f",
+        "name": "function 23",
+        "func": "msg.topic = \"humd is above 95%\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 590,
+        "y": 700,
+        "wires": [
+            [
+                "3c9d0c92afb897e7",
+                "fae094174e0c7d1d"
+            ]
+        ]
+    },
+    {
+        "id": "5ca2c8499f1b58a3",
+        "type": "function",
+        "z": "43bfcc23f67b7a0f",
+        "name": "function 24",
+        "func": "msg.topic = \"temp is above 95%\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 320,
+        "wires": [
+            [
+                "9354d4567459176a",
+                "abcb54906be7ac24"
+            ]
+        ]
+    },
+    {
+        "id": "9354d4567459176a",
+        "type": "e-mail",
+        "z": "43bfcc23f67b7a0f",
+        "server": "smtp.gmail.com",
+        "port": "465",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "secure": true,
+        "tls": true,
+        "name": "laggedmind@gmail.com",
+        "dname": "temp 95",
+        "x": 860,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fae094174e0c7d1d",
+        "type": "ui_toast",
+        "z": "43bfcc23f67b7a0f",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 790,
+        "y": 720,
+        "wires": []
+    },
+    {
+        "id": "abcb54906be7ac24",
+        "type": "ui_toast",
+        "z": "43bfcc23f67b7a0f",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 890,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "444f36c0e9f9c6f7",
+        "type": "sqlite",
+        "z": "43bfcc23f67b7a0f",
+        "mydb": "f9583bc7fd2abaac",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "insert temp humd",
+        "x": 270,
+        "y": 640,
+        "wires": [
+            [
+                "bd8c568f77a87166"
+            ]
+        ]
+    },
+    {
+        "id": "bd8c568f77a87166",
+        "type": "debug",
+        "z": "43bfcc23f67b7a0f",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 340,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "77adba1d4363c1a8",
+        "type": "e-mail in",
+        "z": "43bfcc23f67b7a0f",
+        "name": "read email",
+        "protocol": "IMAP",
+        "server": "imap.gmail.com",
+        "useSSL": true,
+        "autotls": "never",
+        "port": "993",
+        "authtype": "BASIC",
+        "saslformat": true,
+        "token": "oauth2Response.access_token",
+        "box": "INBOX",
+        "disposition": "Read",
+        "criteria": "UNSEEN",
+        "repeat": "300",
+        "fetch": "auto",
+        "inputs": 0,
+        "x": 200,
+        "y": 820,
+        "wires": [
+            [
+                "186e3c4e58270968"
+            ]
+        ]
+    },
+    {
+        "id": "186e3c4e58270968",
+        "type": "ui_text",
+        "z": "43bfcc23f67b7a0f",
+        "group": "148cf0ab9e3b70a0",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "{{msg.topic}}",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 450,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "f9583bc7fd2abaac",
+        "type": "sqlitedb",
+        "db": "D:\\uni\\class\\8\\IOT internet ashya salman goli\\tamrin sare class\\tamrin 18 sqllite\\mydatabase",
+        "mode": "RWC"
+    },
+    {
+        "id": "fb0f910cb3b0925f",
+        "type": "ui_group",
+        "name": "gauge",
+        "tab": "6912293b49bc5cb5",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8513c2f1cc545efc",
+        "type": "ui_group",
+        "name": "chart",
+        "tab": "6912293b49bc5cb5",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "42705f387b5823a4",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM9",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    },
+    {
+        "id": "148cf0ab9e3b70a0",
+        "type": "ui_group",
+        "name": "email text",
+        "tab": "6912293b49bc5cb5",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "6912293b49bc5cb5",
+        "type": "ui_tab",
+        "name": "ESP32",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

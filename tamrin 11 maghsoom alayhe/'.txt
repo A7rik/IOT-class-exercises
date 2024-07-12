@@ -1,0 +1,10 @@
+node.warn
+node.status
+node.error
+node.send
+
+setTimeout(function(){},delay)
+
+
+
+template bahash mitonim ye html bezasim 

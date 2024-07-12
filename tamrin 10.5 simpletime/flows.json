@@ -1,0 +1,105 @@
+[
+    {
+        "id": "255a86131c481864",
+        "type": "tab",
+        "label": "tarmrin 10.5 simpletime",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "9e26612d76cd16da",
+        "type": "simpletime",
+        "z": "255a86131c481864",
+        "name": "",
+        "mydate": true,
+        "myymd": true,
+        "myyear": true,
+        "mymonth": true,
+        "mymonthn": true,
+        "mydom": true,
+        "mydoy": true,
+        "myday": true,
+        "myhourpm": true,
+        "myhour": true,
+        "mytime": true,
+        "mytimes": true,
+        "myminute": true,
+        "myminutes": true,
+        "mysecond": true,
+        "mymillis": true,
+        "myepoch": true,
+        "myrawdate": true,
+        "mypm": true,
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "4432997f4b8ea58e"
+            ]
+        ]
+    },
+    {
+        "id": "39b39f1e1caa74ba",
+        "type": "random",
+        "z": "255a86131c481864",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "randNum",
+        "x": 400,
+        "y": 200,
+        "wires": [
+            [
+                "9e26612d76cd16da"
+            ]
+        ]
+    },
+    {
+        "id": "4432997f4b8ea58e",
+        "type": "debug",
+        "z": "255a86131c481864",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "62c6f2532281375b",
+        "type": "inject",
+        "z": "255a86131c481864",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "39b39f1e1caa74ba"
+            ]
+        ]
+    }
+]

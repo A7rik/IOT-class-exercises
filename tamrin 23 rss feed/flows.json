@@ -1,0 +1,368 @@
+[
+    {
+        "id": "fbd34b69aec7f885",
+        "type": "tab",
+        "label": "tamrin 23 rss feed",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6250d46f0eaf651a",
+        "type": "openweathermap",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "wtype": "current",
+        "lon": "",
+        "lat": "",
+        "city": "kashan",
+        "country": "iran",
+        "language": "en",
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "61472ee434a5be51",
+                "143ed78dd1296a8c",
+                "ac9d4ca686dede6a"
+            ]
+        ]
+    },
+    {
+        "id": "dd76b5e95920cd2c",
+        "type": "inject",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 80,
+        "wires": [
+            [
+                "6250d46f0eaf651a"
+            ]
+        ]
+    },
+    {
+        "id": "61472ee434a5be51",
+        "type": "debug",
+        "z": "fbd34b69aec7f885",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 530,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "143ed78dd1296a8c",
+        "type": "ui_gauge",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "group": "a53512910614acf6",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temp usage",
+        "label": "units",
+        "format": "{{payload.tempc}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 540,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "ac9d4ca686dede6a",
+        "type": "ui_gauge",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "group": "a53512910614acf6",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humd usage",
+        "label": "units",
+        "format": "{{payload.humidity}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 540,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "e3f22629afbeac8c",
+        "type": "feedparse",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "url": "https://news.google.com/rss",
+        "interval": "1",
+        "ignorefirst": false,
+        "x": 160,
+        "y": 280,
+        "wires": [
+            [
+                "a4b4081d2a8e5cde"
+            ]
+        ]
+    },
+    {
+        "id": "133d9af49f11c1b4",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "45ce776b622e9562",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "name": "",
+        "label": "Title",
+        "format": "{{msg.title1}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "f750559b9c7131b4",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "45ce776b622e9562",
+        "order": 2,
+        "width": "6",
+        "height": "9",
+        "name": "",
+        "label": "Summary",
+        "format": "{{msg.sum1}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 680,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "bb0034dab427af51",
+        "type": "sentiment",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "property": "sum1",
+        "x": 700,
+        "y": 320,
+        "wires": [
+            [
+                "a6b5649a0e2417c9"
+            ]
+        ]
+    },
+    {
+        "id": "677992a623de8b80",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "59207243644363ea",
+        "order": 1,
+        "width": "6",
+        "height": "3",
+        "name": "",
+        "label": "Title",
+        "format": "{{msg.title2}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 710,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bffa3fa0ba594158",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "59207243644363ea",
+        "order": 2,
+        "width": "6",
+        "height": "9",
+        "name": "",
+        "label": "Summary",
+        "format": "{{msg.sum2}}",
+        "layout": "col-center",
+        "className": "",
+        "style": true,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 700,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "a4b4081d2a8e5cde",
+        "type": "function",
+        "z": "fbd34b69aec7f885",
+        "name": "function 25",
+        "func": "msg.title2= flow.get(\"title1\");;\nmsg.title1= msg.article.title;\nflow.set(\"title1\", msg.title1);\nmsg.sum2= flow.get(\"sum1\");;\nmsg.sum1= msg.article.summary;\nflow.set(\"sum1\", msg.sum1);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 280,
+        "wires": [
+            [
+                "133d9af49f11c1b4",
+                "f750559b9c7131b4",
+                "677992a623de8b80",
+                "bffa3fa0ba594158",
+                "bb0034dab427af51",
+                "33800d28dcd4f990"
+            ]
+        ]
+    },
+    {
+        "id": "a6b5649a0e2417c9",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "45ce776b622e9562",
+        "order": 6,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "score",
+        "format": "{{msg.sentiment.score}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "33800d28dcd4f990",
+        "type": "sentiment",
+        "z": "fbd34b69aec7f885",
+        "name": "",
+        "property": "sum2",
+        "x": 700,
+        "y": 500,
+        "wires": [
+            [
+                "d08ad6df98965265"
+            ]
+        ]
+    },
+    {
+        "id": "d08ad6df98965265",
+        "type": "ui_text",
+        "z": "fbd34b69aec7f885",
+        "group": "59207243644363ea",
+        "order": 3,
+        "width": "0",
+        "height": "0",
+        "name": "",
+        "label": "score",
+        "format": "{{msg.sentiment.score}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 850,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "a53512910614acf6",
+        "type": "ui_group",
+        "name": "weather",
+        "tab": "0790d7c1e1508c19",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "45ce776b622e9562",
+        "type": "ui_group",
+        "name": "feed1",
+        "tab": "0790d7c1e1508c19",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "59207243644363ea",
+        "type": "ui_group",
+        "name": "feed2",
+        "tab": "0790d7c1e1508c19",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0790d7c1e1508c19",
+        "type": "ui_tab",
+        "name": "tab 1",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]

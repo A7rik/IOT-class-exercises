@@ -1,0 +1,89 @@
+[
+    {
+        "id": "cf30c2646ccd8a7e",
+        "type": "tab",
+        "label": "tamrin 12 settimeout",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a329938e0aadc4f6",
+        "type": "function",
+        "z": "cf30c2646ccd8a7e",
+        "name": "function 5",
+        "func": "\n    node.send({out : 1});\nnode.status({fill:\"red\",shape:\"ring\",text:\"1\"});\nsetTimeout(function() {\n    node.send({ out: 2 }); \nnode.status({fill:\"red\",shape:\"ring\",text:\"2\"});\n    setTimeout(function () {\n        node.send({ out: 3 }); \nnode.status({fill:\"red\",shape:\"ring\",text:\"3\"});\n    }, 2000);\n    node.send({ out: 4 }); \nnode.status({fill:\"red\",shape:\"ring\",text:\"4\"});\n}, 2000);\nnode.send({ out: 5 }); \nnode.status({fill:\"red\",shape:\"ring\",text:\"5\"});\n\n\n//15243\n\n\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 220,
+        "wires": [
+            [
+                "0969b69065e3442b"
+            ]
+        ]
+    },
+    {
+        "id": "13516dbeaf5c642c",
+        "type": "random",
+        "z": "cf30c2646ccd8a7e",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 420,
+        "y": 220,
+        "wires": [
+            [
+                "a329938e0aadc4f6"
+            ]
+        ]
+    },
+    {
+        "id": "dcd1e3e2b9fe0de7",
+        "type": "inject",
+        "z": "cf30c2646ccd8a7e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 240,
+        "y": 220,
+        "wires": [
+            [
+                "13516dbeaf5c642c"
+            ]
+        ]
+    },
+    {
+        "id": "0969b69065e3442b",
+        "type": "debug",
+        "z": "cf30c2646ccd8a7e",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 220,
+        "wires": []
+    }
+]

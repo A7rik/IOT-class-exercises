@@ -1,0 +1,93 @@
+[
+    {
+        "id": "695af5f1fc92209e",
+        "type": "tab",
+        "label": "Ayrik  tamrin 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b4b59e4f61c99cd3",
+        "type": "random",
+        "z": "695af5f1fc92209e",
+        "name": "",
+        "low": 1,
+        "high": "100",
+        "inte": "true",
+        "property": "payload",
+        "x": 380,
+        "y": 140,
+        "wires": [
+            [
+                "96a9ce81f293fd5d"
+            ]
+        ]
+    },
+    {
+        "id": "05b86146302464f9",
+        "type": "debug",
+        "z": "695af5f1fc92209e",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "1be15a0131bdbb7d",
+        "type": "inject",
+        "z": "695af5f1fc92209e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 140,
+        "wires": [
+            [
+                "b4b59e4f61c99cd3"
+            ]
+        ]
+    },
+    {
+        "id": "96a9ce81f293fd5d",
+        "type": "function",
+        "z": "695af5f1fc92209e",
+        "name": "function 1",
+        "func": "msg.payloadneg=-msg.payload\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 140,
+        "wires": [
+            [
+                "05b86146302464f9"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,3 @@
+sqllite node red
+sqlite viewer chrome
+app password for one time password use for devices
